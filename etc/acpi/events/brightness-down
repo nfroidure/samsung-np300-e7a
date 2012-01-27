@@ -1,0 +1,4 @@
+# /etc/acpi/events/brightness-down
+
+event=video/brightnessdown BRTDN 00000087 00000000
+action=/etc/acpi/bright.sh down
